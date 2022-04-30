@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    color: aliceblue;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 55px;
+    margin-left: -1%;
+    color: rgb(45, 45, 45);
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+b{
+    color: black;
+}
+
+button{
+    width: 25%;
+    height: 8%;
+    border: none;
+    background-color: rgb(40, 103, 165);
+    border-radius: 5px;
+    margin-top: 10%;
+    overflow-x: hidden;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.button{
+    width: 118%;
+    height: 90%;
+    border: none;
+    background-color: rgb(40, 103, 165);
+    border-radius: 5px;
+    margin-top: -5%;
+    color: aliceblue;
+    overflow-x: hidden;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin-left: -0.5%;
+    margin-top: -0.5%;
+    margin-right: -0.6%;
+    color: black;
+    box-shadow: rgb(59, 59, 59) 0px 0px 10px;
+}
+
+.gdsc-img{
+    width: 45%;
+    margin: 1%;
+}
+
+.listado{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 12%);
+    margin-top: 2.5%;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+}
+
+.img-community{
+    margin-left: 1%;
+    width: 124%;
+    height: 110%;
+}
+
+.Gdsc{
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.descripcion{
+    margin-top: 8%;
+    color: rgb(20, 20, 20);
+    font-size: 14px;
+}
