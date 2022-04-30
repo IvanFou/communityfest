@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
     font-family: 'Noto Sans', sans-serif;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+header{
+    overflow-x: hidden;
 }
 
 body{
@@ -11,7 +16,6 @@ body{
 
 h1{
     font-size: 55px;
-    margin-left: -1%;
     color: rgb(45, 45, 45);
 }
 
@@ -22,6 +26,11 @@ a{
 
 b{
     color: black;
+}
+
+img{
+    width: 230px;
+    margin-left: 15%;
 }
 
 button{
@@ -95,4 +104,90 @@ button:hover{
     margin-top: 8%;
     color: rgb(20, 20, 20);
     font-size: 14px;
+}
+
+.Agenda{
+    padding: 1%;
+    margin-top: 5%;
+}
+
+.agenda-item{
+    display: grid;
+    grid-template-columns: repeat(3, 40%);
+}
+
+.agenda-dia3{
+    margin-left: -25%;
+}
+
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    margin-top: 8%;
+}
+
+.speakers-description{
+    margin-left: -20%;
+}
+
+.speakers-description p{
+    margin-top: -5%;
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.img-speakers{
+    width: 90px;
+    height: 90px;
+    border-radius: 140px;
+}
+
+.speakers-imgs{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-top: -9%;
+    padding: 2%;
+}
+
+.speakers-text{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.speaker-des{
+    margin-top: 22%;
+}
+
+.organizadores-imgs{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-top: -9%;
+    padding: 2%;
+}
+
+
+.footer{
+ margin-top: -5%;
+}
+
+.logo__footer{
+        width: 60%;
+}
+
+.social-list__inline{
+    display: grid;
+    grid-template-columns: repeat(3, 10%);
+    margin-top: 2%;
+}
+
+li{
+    list-style: none; 
+}
+
+.container img{
+    width: 70px;
+}
+
+.social-list__inline img{
+    width: 7px;
 }
